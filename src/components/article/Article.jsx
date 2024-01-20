@@ -4,7 +4,7 @@ import './article.css';
 const Article = ({ imgUrl, date, text }) => (
   <div className="gpt3__blog-container_article">
     <div className="gpt3__blog-container_article-image">
-      <img src={imgUrl} alt="blog_image" />
+      <img src={imgUrl} alt="blog_image" loading='lazy'/>
     </div>
     <div className="gpt3__blog-container_article-content">
       <div>
